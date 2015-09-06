@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    tools:context="com.qihoo.testtools_new.WelcomeActivity"
+    android:background="#fff" >
+
+    <ImageView 
+        android:id="@+id/iv_app_img"
+        android:layout_width="46dp"
+        android:layout_height="58dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"/>
+    <TextView 
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:text="手机卫士"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_app_img"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#555"/>
+
+</RelativeLayout>
